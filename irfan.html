@@ -69,9 +69,9 @@
 <!-- baru -->
 
     <!--====== Favicon Icon ======-->
-<link rel="apple-touch-icon" sizes="180x180" href="img2/3.jpg">
-<link rel="icon" type="image/png" sizes="32x32" href="img2/3.jpg">
-<link rel="icon" type="image/png" sizes="16x16" href="img2/3.jpg">
+<link rel="apple-touch-icon" sizes="180x180" href="3.jpg">
+<link rel="icon" type="image/png" sizes="32x32" href="3.jpg">
+<link rel="icon" type="image/png" sizes="16x16" href="3.jpg">
 
 
 
@@ -499,7 +499,7 @@ var context = new AudioContext();
         .akhir {
             position: relative;
             height: auto;
-            background: linear-gradient(0deg, rgb(0 0 0 / 50%), rgb(0 0 0 / 40%)), url('img2/WhatsApp\ Image\ 2025-08-17\ at\ 10.39.24_15e6097d.jpg') no-repeat center;
+            background: linear-gradient(0deg, rgb(0 0 0 / 50%), rgb(0 0 0 / 40%)), url('wa.jpg') no-repeat center;
             background-position: center top, center bottom;
             background-repeat: repeat-Y;
             -webkit-background-size: cover;
@@ -664,7 +664,7 @@ var context = new AudioContext();
         }
 
         .awal {
-            background: url('img2/WhatsApp\ Image\ 2025-08-17\ at\ 10.39.24_15e6097d.jpg') no-repeat center;
+            background: url('wa.jpg') no-repeat center;
             background-position: center top, center bottom;
             background-repeat: no-repeat;
             -webkit-background-size: cover;
@@ -685,7 +685,7 @@ var context = new AudioContext();
 
         .head {
             background: linear-gradient(-45deg, #0000007d, #0000008a),
-            url('img2/WhatsApp\ Image\ 2025-08-17\ at\ 10.39.24_15e6097d.jpg') no-repeat center;
+            url('wa.jpg') no-repeat center;
             background-size: 80vh;
             height: 80vh;
 
@@ -693,7 +693,7 @@ var context = new AudioContext();
 
         .head2 {
             background: linear-gradient(-45deg, #0000007d, #0000008a),
-            url('img2/10.jpg') no-repeat center;
+            url('10.jpg') no-repeat center;
             background-size: 80vh;
             height: 100vh;
 
@@ -1114,101 +1114,6 @@ var context = new AudioContext();
 
 
 
-<div id="kehadiran-modal" style=" max-width: 440px; display: none; width: 100%;position: fixed;background-color: #0000008f;z-index: 9999;height: 100%; color: #000; font-family: 'Golos Text', sans-serif;">
-
-
-<div id="kado-frame" style="color: #000 !important">
-
-
-
-
-    
-    <div id="kado-pilih" style="">
-    <div onclick="closeKehadrianModal()" style="height: 50%;position: absolute;top: 0;width: 100%;"></div>
-    <div id="kehadiran-modal-body" style="transform: translateY(400px); opacity: 0; width: 100%;background-color: #fff !important;position: absolute;bottom: 0px;height: 50%;border-top-left-radius: 10px;border-top-right-radius: 10px; padding: 10px 15px;">
-
-
-            <div id="header_kd" class="header_rmodal" style="height: 30px;">
-                <p id="header_kd_id1" style="font-size: 12px !important; font-family: 'Golos Text', sans-serif;">Konfirmasikan kehadiran Anda kepada pemilik acara</p>
-            </div>
-            <hr>
-            <div style="overflow-y: scroll; height: 100%;">
-                <div style="height: 10px"></div>
-                <div style="text-align:center; margin-bottom: 15px;">
-
-                                        <p id="kehadiaran-popup-id1" style="font-size: 12px !important;font-family: 'Golos Text', sans-serif !important;line-height: 14px !important;">Pemilik acara mengharapkan konfirmasi kehadiranmu di acara The Wedding Of</p>
-                        <p id="kehadiaran-popup-id2" style="font-size: 12px !important;font-family: 'Golos Text', sans-serif !important;line-height: 14px !important;">Irfan & Khirana</p>
-                                    </div>
-
-
-                
-                <form style="    width: 95%;margin: 0 auto;" id="push_ucapan_popup" method="POST" action="https://indoinvite.com/ucapan/store">
-                    <input type="hidden" name="_token" value="l5JWjBT2gJYijjEfxPW4VCU9wpIp4zTVYhWhwAfE">                    <input style="    font-size: 12px !important;" type="hidden" name="pernikahan_id" value="988128">
-                    <div class="form-group col-md-12" style="background-color: #fff">
-                        <label style="color: #000 !important" class="form-label">Nama</label>
-                        <input style="   color: #000 !important;  font-size: 12px !important;padding: 0px 10px !important;height: 35px !important;" maxlength="20" required name="nama" id="konfir_nama_2_popup" class="form-control form-fun">
-                    </div>
-
-                    <div class="form-group col-md-12" id="filed_kehadiran_popup" style="background-color: #fff">
-                        <label style="color: #000 !important" class="form-label">Kehadiran</label>
-
-                        <select style="  color: #000 !important;  font-size: 12px !important;padding: 0px 10px !important;height: 35px !important;" required class="form-control form-fun" name="ket_hadir" id="hadir_id_popup">
-                            
-                            <option value="">Option</option>
-                            <option value="0">Tidak Hadir</option>
-                            <option value="1">Hadir</option>
-                        </select>
-                    </div>
-
-
-                    <div class="form-group col-md-12" style="background-color: #fff; display:none" id="wa3_popup">
-                        <label style="color: #000 !important" class="form-label">Jumlah Orang yang Hadir</label>
-
-                        <select style="  color: #000 !important;  font-size: 12px !important;padding: 0px 10px !important;height: 35px !important;" required class="form-control form-fun" name="jumlah" id="jumlah_datang_id_popup">
-                            
-                                                                                                <option value="0">0 Orang</option>
-                                                                    <option value="1">1 Orang</option>
-                                                                    <option value="2">2 Orang</option>
-                                                                    <option value="3">3 Orang</option>
-                                                                    <option value="4">4 Orang</option>
-                                                                    <option value="5">5 Orang</option>
-                                                                    <option value="6">6 Orang</option>
-                                                                    <option value="7">7 Orang</option>
-                                                                    <option value="8">8 Orang</option>
-                                                                    <option value="9">9 Orang</option>
-                                                                    <option value="10">10 Orang</option>
-                                                                                    </select>
-                    </div>
-
-                    
-
-                    <div style="display: flex;     width: 100%;">
-                        <button type="submit" id="tombol_kirim_2_popup" style=" padding: 10px 30px;border-radius: 6px; width: 100%" class="btn btn-primary font-p">Send</button>
-
-                        
-                    </div>
-
-                        <p  id="footer_kd_id1" style="font-size: 10px; text-align: center; margin-top: 5px;line-height: 13px;">Dengan mengirim konfirmasi kehadiran, Pemilik Acara dapat mengetahui status kehadiran masing-masing tamu</p>
-                </form>
-
-
-
-
-                <div style="height: 70px"></div>
-            </div>
-
-
-
-            
-
-    </div>
-
-
-</div>
-
-</div>
-
-</div>
 <!-- hapus -->
         <div id="fun-div-id2" class="awal">
             <div class="overlayy">
@@ -1254,13 +1159,13 @@ var context = new AudioContext();
                                 <div class="overlayy"></div>
                                 <ul class="splide__list">
                                     <li class="splide__slide" data-splide-interval="5000"
-                                        style="background: url('img2/8.jpg') no-repeat center; height: 660px; background-size: 660px">
+                                        style="background: url('8.jpg') no-repeat center; height: 660px; background-size: 660px">
                                     </li>
                                     <li class="splide__slide" data-splide-interval="5000"
-                                        style="background: url('img2/9.jpg') no-repeat center; height: 660px; background-size: 660px">
+                                        style="background: url('9.jpg') no-repeat center; height: 660px; background-size: 660px">
                                     </li>
                                     <li class="splide__slide" data-splide-interval="5000"
-                                        style="background: url('img2/6.jpg') no-repeat center; height: 660px; background-size: 660px">
+                                        style="background: url('6.jpg') no-repeat center; height: 660px; background-size: 660px">
                                     </li>
                                 </ul>
                             </div>
@@ -1300,22 +1205,22 @@ var context = new AudioContext();
                         <div style="margin-top:10px; align-items: center; background: #E3E3E3; display: flex; justify-content: center; width: 415px;">
                             <div class="slider">
                                 <div class="slide-track" style="filter: drop-shadow(10px 10px 10px #333333)">
-                                    <div class="slide" style="background: url('img2/WhatsApp\ Image\ 2025-08-17\ at\ 10.39.24_15e6097d.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/2.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/3.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/4.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/5.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/6.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/8.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/9.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/10.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/11.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/12.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/2.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/3.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/4.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/5.jpg') no-repeat center;"></div>
-                                    <div class="slide" style="background: url('img2/6.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('wa.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('2.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('3.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('4.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('5.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('6.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('8.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('9.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('10.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('11.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('12.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('2.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('3.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('4.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('5.jpg') no-repeat center;"></div>
+                                    <div class="slide" style="background: url('6.jpg') no-repeat center;"></div>
                                    
                                 </div>
                             </div>
@@ -1343,7 +1248,7 @@ var context = new AudioContext();
                         <div style="width: 55%; z-index: 1;">
                                                         <img src="https://indoinvite.com/nikah/template/elegan/elegan-grey/EG-Groom.webp" alt="">
                             
-                            <div class="foto_pria_cli" style="margin-top: -40px; filter: drop-shadow(0 0 0.75rem #000); height:290px; border-radius: 200px 200px 0px 0px; background:url('img2/7.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+                            <div class="foto_pria_cli" style="margin-top: -40px; filter: drop-shadow(0 0 0.75rem #000); height:290px; border-radius: 200px 200px 0px 0px; background:url('7.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
                         </div>
                     </div>
                     <div class="panggilan_mempelai_cli" style="background: url('https://indoinvite.com/nikah/template/bee-classic/BFL-BC.jpg') center center; background-position: center top, center bottom;
@@ -1356,7 +1261,7 @@ var context = new AudioContext();
                         <div style="width: 55%; z-index: 1;">
                                                         <img src="https://indoinvite.com/nikah/template/elegan/elegan-grey/EG-Bride.webp" alt="">
                             
-                            <div class="foto_wanita_cli" style="margin-top: -40px; filter: drop-shadow(0 0 0.75rem #000); height: 290px; border-radius: 200px 200px 0px 0px; background:url('img2/1.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
+                            <div class="foto_wanita_cli" style="margin-top: -40px; filter: drop-shadow(0 0 0.75rem #000); height: 290px; border-radius: 200px 200px 0px 0px; background:url('1.jpg'); background-position: center; background-repeat: no-repeat; background-size: cover;"></div>
                         </div>
                         <div style="width: 45%;">
                             <div class="data_wanita_cli" style="margin: 0px 0px 0px 0px; --e-column-margin-right: 0px; --e-column-margin-left: 0px; padding: 0px 0px 0px 0px;">
@@ -1614,83 +1519,83 @@ var context = new AudioContext();
         
         
                                     <a class="gallery-item" 
-                href="img2/2.jpg"
+                href="2.jpg"
                 data-aos="fade-right"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                    src="img2/3.jpg"  
+                    src="3.jpg"  
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                href="img2/4.jpg"
+                href="4.jpg"
                 data-aos="fade-left"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                    src="img2/5.jpg"  
+                    src="5.jpg"  
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                href="img2/6.jpg"
+                href="6.jpg"
                 data-aos="fade-right"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                    src="img2/8.jpg"  
+                    src="8.jpg"  
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                href="img2/9.jpg"
+                href="9.jpg"
                 data-aos="fade-left"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                    src="img2/10.jpg"  
+                    src="10.jpg"  
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                href="img2/11.jpg"
+                href="11.jpg"
                 data-aos="fade-right"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                    src="img2/12.jpg"
+                    src="12.jpg"
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                 href="img2/2.jpg"
+                 href="2.jpg"
                 data-aos="fade-left"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                    src="img2/3.jpg"
+                    src="3.jpg"
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                 href="img2/4.jpg"
+                 href="4.jpg"
                 data-aos="fade-right"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                    src="img2/5.jpg"
+                    src="5.jpg"
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                 href="img2/6.jpg"
+                 href="6.jpg"
                 data-aos="fade-left"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                    src="img2/10.jpg"
+                    src="10.jpg"
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                 href="img2/8.jpg"
+                 href="8.jpg"
                 data-aos="fade-right"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                   src="img2/9.jpg"
+                   src="9.jpg"
                     loading="lazy" />
             </a>
                                     <a class="gallery-item" 
-                 href="img2/12.jpg"
+                 href="12.jpg"
                 data-aos="fade-left"
                 data-aos-duration="1000">
                             <img alt="Swipe Up To Close" 
-                   src="img2/2.jpg" 
+                   src="2.jpg" 
                     loading="lazy" />
             </a>
                 </div>
@@ -1745,7 +1650,7 @@ var context = new AudioContext();
            <div>
                  <h4 style="text-align: center;">Konfirmasi Kehadiran Ke Mempelai</h4>
                  <br>
-                 <img src="img2/2.jpg" alt="groom" class="img-responsive" style="border-radius: 50%;width: 125px;margin: 0 auto;">
+                 <img src="2.jpg" alt="groom" class="img-responsive" style="border-radius: 50%;width: 125px;margin: 0 auto;">
                  <form method="POST" action="" id="form-konfir">
                      <input type="hidden" name="_token" value="l5JWjBT2gJYijjEfxPW4VCU9wpIp4zTVYhWhwAfE">                    <div class="form-group col-md-12">
                         <label>Nama</label>
@@ -1937,10 +1842,7 @@ var context = new AudioContext();
                     height: 30px;
                     width: 34px;
                     border-radius: 3px; margin: 0 auto;"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64zM308.7 451.3L204.7 347.3C200.1 342.7 198.8 335.8 201.2 329.9C203.6 324 209.5 320 216 320L272 320L272 224C272 206.3 286.3 192 304 192L336 192C353.7 192 368 206.3 368 224L368 320L424 320C430.5 320 436.3 323.9 438.8 329.9C441.3 335.9 439.9 342.8 435.3 347.3L331.3 451.3C325.1 457.5 314.9 457.5 308.7 451.3z"/></svg>
-                        <img style="
-                        width: 20px; margin: 0 auto;
-                            padding-top: 4px;
-                    " src="/nikah/down.png" alt=""> 
+                       
                     </div>
                 </div>
             </div>
@@ -1955,11 +1857,7 @@ var context = new AudioContext();
                     height: 30px;
                     width: 30px;
                     border-radius: 3px; margin: 0 auto;">
-                        <img style="
-                        width: 25px;
-                            padding-top: 4px;
-                            padding-left: 2px;
-                    " src="/nikah/sound.svg" alt=""> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M532 71C539.6 77.1 544 86.3 544 96L544 400C544 444.2 501 480 448 480C395 480 352 444.2 352 400C352 355.8 395 320 448 320C459.2 320 470 321.6 480 324.6L480 207.9L256 257.7L256 464C256 508.2 213 544 160 544C107 544 64 508.2 64 464C64 419.8 107 384 160 384C171.2 384 182 385.6 192 388.6L192 160C192 145 202.4 132 217.1 128.8L505.1 64.8C514.6 62.7 524.5 65 532.1 71.1z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M532 71C539.6 77.1 544 86.3 544 96L544 400C544 444.2 501 480 448 480C395 480 352 444.2 352 400C352 355.8 395 320 448 320C459.2 320 470 321.6 480 324.6L480 207.9L256 257.7L256 464C256 508.2 213 544 160 544C107 544 64 508.2 64 464C64 419.8 107 384 160 384C171.2 384 182 385.6 192 388.6L192 160C192 145 202.4 132 217.1 128.8L505.1 64.8C514.6 62.7 524.5 65 532.1 71.1z"/></svg>
                     </div>
                 </div>
             </div>
